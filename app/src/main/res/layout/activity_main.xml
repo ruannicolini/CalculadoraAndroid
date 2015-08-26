@@ -1,0 +1,140 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent" >
+
+        <TextView
+            android:background="#b0b0b0"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginTop="0sp"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:text=""
+            android:layout_weight="1"
+            android:id="@+id/txtAux" />
+    </TableRow>
+
+    <TableRow>
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginTop="10sp"
+            android:textSize="45sp"
+            android:maxLines="1"
+             android:layout_weight="1"
+            android:text=""
+            android:id="@+id/txtExibicao" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/sete"
+            android:id="@+id/btn7" />
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/oito"
+            android:id="@+id/btn8"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/nove"
+            android:id="@+id/btn9"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/btnDiv" />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/quatro"
+            android:id="@+id/btn4"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/cinco"
+            android:id="@+id/btn5" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/seis"
+            android:id="@+id/btn6" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:id="@+id/btnMult"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/um"
+            android:id="@+id/btn1" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/dois"
+            android:id="@+id/btn2" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/tres"
+            android:id="@+id/btn3" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/btnSub" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/ce"
+            android:id="@+id/btnCE" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:id="@+id/btn0"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/igual"
+            android:id="@+id/btnIgual" />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/soma20"
+            android:id="@+id/btnSoma" />
+    </TableRow>
+
+</TableLayout>
